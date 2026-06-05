@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    box-sizing: border-box;
+    
+}
+
+#one{
+    height: 500px;
+    width: 300px;
+    border: 2px solid black;
+    margin-top: 90px;
+    margin-left: 150px;
+    font-size: xx-large;
+    padding-top: 20px;
+  
+    
+}
+
+#two{
+    height: 100px;
+    width: 100px;
+    border: 3px solid green ;
+    margin-top: 30px;
+    margin-left: 99px;
+    border-radius: 50%;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaAsJaTD22xdCgfrjTCJzLQmODiZ-tYaXisA&s");
+    background-size: cover;
+
+}
+
+h4{
+    margin-top: 20px;
+}
+h5{
+    margin-top: 20px;
+}
+
+button{
+    height: 30px;
+    width: 80px;
+    font-size: medium;
+    margin-top: 70px;
+
+    
+}
+
+button:hover{
+    height: 35px;
+    width: 90px;
+    background-color: rgb(115, 215, 115);
+}
