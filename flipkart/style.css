@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    border: 2px solid white;
+}
+
+
+#flip{
+    height: 60px;
+    width: 160px;
+    background-color: yellow;
+    border-radius: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: x-large;
+    margin-top: 10px;
+    display: inline-block;
+    margin-bottom: 20px;
+
+}
+
+#travel{
+     height: 60px;
+    width: 160px;
+    background-color: rgb(197, 197, 161);
+    border-radius: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: x-large;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+#location{
+     height: 60px;
+    width: 360px;
+  /* border: 2px solid black; */
+  border-radius: 18px;
+    text-align: center;
+    padding-top: 15px;
+    font-size: x-large;
+    margin-top: 10px;
+    display: inline-block;
+    margin-left: 800px;
+}
+
+.main input{
+    width: 80%;
+    height: 20%;
+    outline: none;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    padding: 10px;
+    margin-left: 20px;
+    border-color: blue;
+}
+
+.one{
+    margin: 10px;
+}
+#login{
+    margin-left: 100px;
+}
+
+.box{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    display: inline-block;
+    margin: 12px;
+    border: 2px solid black;
+    box-sizing: border-box;
+}
+
+#hero{
+   margin-top: 20px;
+}
+
+.im{
+    display: inline-block;
+    margin: 8px;
+}
+
+#refer{
+    border: 10px  solid yellow;
+    height: 350px;
+    background-color: blue;
+    padding: 20px;
+   
+    
+    
+    
+}
+
+#reco{
+    margin-top: 30px;
+}
+
+#footer{
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+     margin-bottom: 40px;
+     box-sizing: border-box;
+}
+
+#about{
+    font-size: x-large;
+    width: 250px;
+    height: 290px;
+    border: 2px solid rgb(6, 6, 6) ;
+    text-align: center;
+    padding-top: 40px;
+    box-sizing: border-box;
+    display: inline-block;
+
+  
+    
+
+   
+}
+
+.foot{
+    font-size: large;
+    padding: 5px;
+    display: inline-block;
+}
+
+
+#group{
+    font-size: x-large;
+    width: 250px;
+    height: 250px;
+    border: 2px solid rgb(17, 16, 16) ;
+    text-align: center;
+    /* padding-top: 10px; */
+    display: inline-block;
+    margin-left: 50px;
+ 
+
+}
+
+.gro{
+    box-sizing: border-box;
+}
+
+#service{
+    height: 350px;
+    background-color: black;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.features{
+    display: inline-block;
+    width: 320px;
+    height:250px ;
+    padding-top: 5%;
+    margin-left: 40px;
+}
+
+#oned{
+    margin-left: 43%;
+    margin-top: 2%;
+}
+
+.image{
+    padding-right: 30px;
+    margin-left: 15px;
+}
