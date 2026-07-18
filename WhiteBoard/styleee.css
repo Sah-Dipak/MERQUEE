@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#control{
+    margin: 15px;
+    text-align: center;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(57, 62, 66);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+button:hover{
+    background-color: orange;
+
+}
+
+canvas{
+    border: 3px solid rgb(115, 87, 87);
+    background-color: rgb(65, 53, 53);
+    border-radius: 8px;
+    cursor: crosshair;
+    transition: background-color 0.3s ease;
+}
