@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form - Demo</title>
+</head>
+<body>
+    
+    <!-- <form id="form">
+        <label for="name">Name: </label>
+        <input type="text" id="name" required>
+        <br><br>
+        <label for="course">Course: </label>
+        <select name="course" id="course">
+            <option disabled>Select Your Course</option>
+            <option>Mern</option>
+            <option>DSA</option>
+            <option>Data Science</option>
+        </select>
+        <br><br>
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    <h3 id="status"></h3>
+    <script>
+        const form = document.getElementById("form")
+        const name = document.getElementById("name")
+        const course = document.getElementById("course")
+        const status = document.getElementById("status")
+        name.addEventListener("focus",()=>{
+            status.innerText="Focus Event"
+        })
+         name.addEventListener("blur",()=>{
+            status.innerText="Blur Event"
+        })
+         name.addEventListener("input",()=>{
+            status.innerText="Typing"
+        })
+         name.addEventListener("change",()=>{
+            status.innerText="Final "
+        })
+        
+    </script> -->
+
+
+
+    <!-- Elements States -->
+     <!-- Disable & Enable -->
+      <!-- if Disable true -->
+       <!-- User cannot type Input & click button -->
+
+       <input type="text" id="username" placeholder="Enter Name">
+       <br>
+       <button id="submitBtn">Submit</button>
+       <br>
+       <br>
+       <button id="disableBtn">Disable Submit</button>
+       <button id="enableBtn">Enable Submit</button>
+
+       <button id="show">Show para</button>
+       <button id="hidden">Hidden para</button>
+
+       <p id="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ex harum magni cumque facere, aspernatur fugit quos illo in odio ad voluptatem quae, placeat rem, nam sit esse fuga consequuntur.</p>
+
+       <input type="password" placeholder="******">
+       <button id="toggleBtn">Show Password</button>
+
+       <script>
+        const submitBtn = document.getElementById('submitBtn')
+        const disableBtn = document.getElementById('disableBtn')
+        const enableBtn = document.getElementById('enableBtn')
+
+        disableBtn.addEventListener("click" , () => {
+            submitBtn.disabled = true
+        })
+
+        enableBtn.addEventListener("click" , () => {
+            submitBtn.disabled = false
+        })
+
+        const para = document.getElementById('para')
+        const show = document.getElementById('show')
+        const hide = document.getElementById('hidden')
+
+        show.addEventListener("click" , () => {
+           para.style.display = "block" 
+        })
+
+        hide.addEventListener("click" , () => {
+           para.style.display = "none" 
+        })
+
+        const toggleBtn = document.getElementById("toggleBtn")
+        const password = document.getElementById("password")
+
+        toggleBtn.addEventListener("click" , ()=>{
+            if(password.type == "password"){
+                password.type = "text"
+
+                toggleBtn.innerText = "Hide Password"
+            }
+
+            else{
+                password.type = "password"
+                toggleBtn.innerText = "Show Password"
+            }
+        })
+
+
+
+        const username = document.getElementById("username");
+
+   
+    username.style.border = "2px solid black";
+
+    username.addEventListener("input", () => {
+        if (username.value == "") {
+            username.style.border = "2px solid red";
+        } else {
+            username.style.border = "2px solid green";
+        }
+    });
+
+
+
+       </script>
+</body>
+</html>

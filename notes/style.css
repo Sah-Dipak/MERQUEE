@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+
+body{
+    display: flex;
+    justify-content: center;
+   margin-top: 150px;
+}
+
+
+
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 0px 0px  10px red;
+    
+    
+}
+
+h2{
+    text-align: center;
+    font-size: xx-large;
+    margin: 20px 0px 20px 0px;
+}
+
+#notes input{
+    height: 40px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+#notes button{
+    height: 40px;
+    width: 200px;
+    border-radius: 10px;
+    margin: 30px 0px 10px 0px;
+}
+
+#clearBtn{
+    height: 40px;
+    width: 150px;
+    border-radius: 10px;
+    margin: 0px 0px 20px 0px;
+}
+
+#clearBtn:hover{
+    background-color: red;
+    color: white;
+}
+
+h3{
+    font-size: x-large;
+    margin-bottom: 10px;
+    /* background-color: red; */
+}
+
+#noteList{
+    list-style-type: none;
+    font-size: x-large;
+    letter-spacing: 1px;
+   
+}
+
+.deleteBtn{
+    height: 30px;
+    width: 70px;
+    border-radius: 10px;
+    margin-left: 20px;
+}
+
+#add:hover{
+    background-color: green;
+    color: white;
+}
+
+
+
+
+
+
+
